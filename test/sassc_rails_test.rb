@@ -2,7 +2,7 @@
 
 require "test_helper"
 
-class SassRailsTest < MiniTest::Test
+class SassRailsTest < Minitest::Test
   attr_reader :app
 
   def setup
